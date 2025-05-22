@@ -1,7 +1,17 @@
 # Heart-vs-Abdominal-Ultrasound-Classification-using-Machine-Learning
 Medical ultrasound image classification using CNN and Random Forest. Includes binary classification of heart vs abdominal scans, valve state classification (open/closed), and performance improvement via data augmentation and transfer learning.
 
+Automatically separating cardiac from non-cardiac ultrasound scans helps streamline the diagnostic process by ensuring that relevant images are correctly routed for further analysis (e.g., assessing heart valve function), while unrelated scans (like abdominal ultrasounds) are filtered out.
 
+This classification step is particularly useful in:
+
+Reducing human error during manual review and labeling.
+
+Improving efficiency in large-scale imaging databases.
+
+Serving as a pre-processing stage in AI pipelines for advanced heart condition detection.
+
+By automating this image type recognition, clinicians can focus more on diagnosis and patient care rather than administrative sorting tasks.
 
 This project was completed as part of a university coursework to classify ultrasound medical images using machine learning and deep learning techniques. The dataset includes both heart and abdominal ultrasound images, with labeled heart valve states (open/closed).
 
@@ -39,3 +49,6 @@ This notebook presents three main experiments:
 - CNN outperformed Random Forest on heart vs abdominal classification.
 - Augmented CNN and VGG16-based transfer learning improved open/closed classification results.
 - Evaluation metrics showed consistent improvement across experiments.
+
+
+
