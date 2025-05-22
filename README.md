@@ -28,10 +28,10 @@ This notebook presents three main experiments:
 
 ###  Dataset Structure
 
-- `data/heart/open`: 138 images with open mitral valves
-- `data/heart/closed`: 80 images with closed mitral valves
-- `data/heart`: includes clinician-annotated segmentation masks
-- `data/non-heart`: 925 abdominal ultrasound images
+- `heart/open`: 138 images with open mitral valves
+- `heart/closed`: 80 images with closed mitral valves
+- `Data_1/heart`: includes clinician-annotated segmentation masks
+- `Data_1/non-heart`: 925 abdominal ultrasound images
 
 
 ###  Results Summary
