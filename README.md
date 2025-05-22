@@ -30,7 +30,7 @@ This notebook presents three main experiments:
 
 - `data/heart/open`: 138 images with open mitral valves
 - `data/heart/closed`: 80 images with closed mitral valves
-- `data/heart/various`: includes clinician-annotated segmentation masks
+- `data/heart`: includes clinician-annotated segmentation masks
 - `data/non-heart`: 925 abdominal ultrasound images
 
 
